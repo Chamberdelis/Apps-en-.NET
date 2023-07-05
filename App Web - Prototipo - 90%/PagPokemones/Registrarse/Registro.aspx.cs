@@ -31,7 +31,7 @@ namespace PagPokemones
                 user.Id = negocio.insertarNuevo(user);
                 Session.Add("trainee", user);
 
-                //service.armarMail(user.Mail, "Bienvenido gordito", "Pingo");
+                //service.armarMail(user.Mail, "Bienvenido", "¡Hola!");
                 //service.enviarMail();
 
                 Response.Redirect("../Default.aspx", false);
